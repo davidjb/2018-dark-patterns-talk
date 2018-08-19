@@ -2059,7 +2059,7 @@
 	function layoutSlideContents( width, height ) {
 
 		// Handle sizing of elements with the 'stretch' class
-		toArray( dom.slides.querySelectorAll( 'section > .stretch' ) ).forEach( function( element ) {
+		toArray( dom.slides.querySelectorAll( 'section > .stretch, section > p > .stretch' ) ).forEach( function( element ) {
 
 			// Determine how much vertical space we can use
 			var remainingHeight = getRemainingHeight( element, height );
