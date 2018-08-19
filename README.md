@@ -1,3 +1,26 @@
+# Local info
+
+```
+yarn
+yarn start
+
+npx decktape reveal http://localhost:8000 dark-patterns.pdf \
+  --size 1920x1400
+gs \
+  -o dark-patterns-web.pdf
+  -sDEVICE=pdfwrite \
+  -dDownsampleColorImages=true \
+  -dDownsampleGrayImages=true \
+  -dDownsampleMonoImages=true \
+  -dColorImageResolution=72 \
+  -dGrayImageResolution=72 \
+  -dMonoImageResolution=72 \
+  -dColorImageDownsampleThreshold=1.0 \
+  -dGrayImageDownsampleThreshold=1.0 \
+  -dMonoImageDownsampleThreshold=1.0
+  dark-patterns.pdf
+```
+
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://revealjs.com/).
