@@ -99,7 +99,7 @@ Notes:
 
 ![ebay](img/ebay-1.png) <!-- .element class="plain stretch"-->
 
-This is _actually_ a required field!
+This is actually a _required_ field!
 
 Notes:
 * My head exploded.
@@ -150,6 +150,8 @@ Intentionally
 Notes:
 * Tonight, we're talking design and UI
 * Looking at things that... [1/2/3]
+* Usually via some form of psychology (eg default behaviour, laziness, skim
+  reading etc)
 
 ---
 
@@ -241,14 +243,16 @@ Guilting & shaming you into compliance
 
 ### Impact
 
-* Customers misled & unhappy
+* Misled customers are angry & unhappy
 * Regulatory action (ACCC)
 * Fines / business impact
 
 Notes:
-* $545k fine in 2016
+* Eventually, dark patterns worked against them
+* Australian Consumer Law prevents misleading conduct
+* ACCC managed a $545k fine in 2016
 * Aviation a priorty in 2017 for ACCC
-* Legislation changes to handle CC fees, etc
+* Legislation changes to handle CC fees, opt-out model etc
 
 ---
 
@@ -391,6 +395,8 @@ Notes:
 Notes:
 * Booking.com
 * They can't even spell persuasion right
+* This line went away later
+* The CTA button is a complete lie
 
 
 ![Lonely example](img/booking-mid-year-deal.png) <!-- .element class="plain stretch" -->
@@ -401,7 +407,7 @@ Notes:
 <div class="d-deal d-deal__lonely d-deal__preset-deal"
      aria-hidden="true">
   <div class="d-deal-b d-deal-preset">
-    <p class="d-deal--main d-deal--main__text">
+    <p>
       Mid-Year Deal
     </p>
   </div>
@@ -409,14 +415,33 @@ Notes:
 ```
 
 
+![You missed it example](img/booking-you-missed-it.png) <!-- .element class="plain" -->
+
+> To give you an idea of the price range, we looked at how much this was
+> booked for when it sold out. The price we're showing is based on the average
+> price per night.
+
+Notes:
+* Yeah, right; that's why it's there.
+* Even if this was true, it could have been booked a year ago.
+
+
 ![Decoys example](img/expedia-decoys.png) <!-- .element class="plain stretch" -->
 
 ```html
-<article class="decoys col">
+<article class="decoys">
+  ...
+</article>
 ```
 
 Notes:
 * Expedia
+* Also, who the heck is going to stay at a hotel called INSOMNIA?
+
+
+### Disguised Ads
+
+Ads disguised as content or navigation so you'll click them
 
 
 ![Thumbs up example](img/booking-promoted.png) <!-- .element class="plain stretch" -->
@@ -444,14 +469,6 @@ Notes:
 In short, they're **everywhere**.
 <br>
 It's their _entire business_.
-
-
-![Decoys example](img/) <!-- .element class="plain logo" -->
-
-
-### Disguised Ads
-
-Ads disguised as content or navigation so you'll click them
 
 
 ![Don't Panic](img/dont-panic.svg) <!-- .element class="plain" style="height: 100%; max-height: 20vh"-->
@@ -485,12 +502,17 @@ If you feel:
 * pressure,
 * panic,
 * confusion, or
-* see "weird" behaviour...
+* see intrusive or "weird" behaviour...
 
 <br>
 _It's likely a Dark Pattern._
 
 Notes:
+* There's lots more Dark Patterns
+  * Friend Spam: LinkedIn etc that demand your email password (!!)
+  * Tabs that change their title and to catch your attention (!)
+  * Popups that appear when you click _away_ from a tab
+  * Pop-ups that make you think you have to subscribe
 * If something looks to not work _right_ then your spider sense should be
   tingling.
 * It could just be the system's borked...but big companies don't tend to screw
@@ -600,6 +622,8 @@ Be aware
 Notes:
 * Unfortunately, we can't clean up the entire web with a tool like my "Don't
   Panic" filter.
+* Ad blockers like uBlock Origin can help, but don't typically
+  affect "non-ad" page content
 * So it's on us as individuals to be aware
 * Not just in UI, but everyday life too
 
@@ -640,8 +664,8 @@ Consider legal action
 
 * Dark Patterns = deceptive UI
 * Expect them
-* Aim for clarity as a designer
 * Work with your stakeholders
+* Do unto others
 * Raise your voice as a user
 
 Notes:
