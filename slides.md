@@ -63,7 +63,7 @@ Notes:
   * Bad design?
   * Poor colour choices?
   * Evil coders and Matrix-code?
-* Well, for avoidence of doubt, we're _NOT_ talking about
+* Well, for avoidance of doubt, we're _NOT_ talking about
 
 
 <!-- .slide: data-background-iframe="https://code.divshot.com/geo-bootstrap/" data-background-interactive -->
@@ -83,11 +83,11 @@ Notes:
 
 Notes:
 * Or just poor life choices
-* Sorry to disappoint anyone here for the cat memes
+* Sorry to disappoint anyone here for the cat memes or Geocities
 
 
 ![ebay](img/ebay-2.png) <!-- .element class="plain stretch" -->
-## 🤔
+<span style="font-size: 4rem">🤔</span>
 
 Notes:
 * What do you think / feel about this?
@@ -98,8 +98,8 @@ Notes:
 
 
 ![ebay](img/ebay-1.png) <!-- .element class="plain stretch"-->
-
-This is actually a _required_ field!
+<br>
+This is a _required_ field!
 
 Notes:
 * My head exploded.
@@ -251,7 +251,7 @@ Notes:
 * Eventually, dark patterns worked against them
 * Australian Consumer Law prevents misleading conduct
 * ACCC managed a $545k fine in 2016
-* Aviation a priorty in 2017 for ACCC
+* Aviation a priority in 2017 for ACCC
 * Legislation changes to handle CC fees, opt-out model etc
 
 ---
@@ -316,8 +316,8 @@ Okay, so there's no buttons left except for `Learn More`.  Let's do that.
 ![messenger](img/messenger-2.png) <!-- .element class="plain stretch" style="border: 1px solid #ccc" -->
 
 Notes:
-Oh, right yes, this is "learning more".
-* Fat blobs on some drug-induced trip
+* Oh, right yes, this is "learning more".
+* Fat blobs on some drug-induced privacy trip
 
 
 <!-- .slide: data-transition="fade" -->
@@ -345,7 +345,7 @@ Notes:
 
 
 ![FB stock chart](img/facebook-stock.gif) <!-- .element class="plain stretch" -->
-
+<br>
 $120B drop in one day
 
 Notes:
@@ -463,10 +463,11 @@ Ads disguised as content or navigation so you'll click them
 > means that you get the same room for a lower price compared to other
 > check-in dates at the same time of year. <!-- .element style="font-size: 70%;" -->
 
-### 🤯
+
+# 🤯
 
 
-In short, they're **everywhere**.
+Dark Patterns are **everywhere**.
 <br>
 It's their _entire business_.
 
@@ -638,6 +639,21 @@ Notes:
 * Just like if you're buying/renting a car or shopping at Harvey Norman
 * These sales people are in it for **themselves** so once you remember that,
   you're at least on an even footing
+* Applies to app permissions too -- slow down and read dialog boxes
+
+
+![Airbnb permissions](img/airbnb-permissions.jpg) <!-- .element class="plain stretch" -->
+
+
+* Check _all_ app permissions & dialogs
+* Check online account settings
+* Check your bank statements
+* Revoke permissions (eg Facebook login)
+
+Notes:
+* It's worth checking regularly
+* Companies rely on you setting-and-forgetting
+* My ISP double-charged me $75 because of a "developer error"
 
 
 ### Apply pressure
@@ -647,6 +663,7 @@ Complain to company
 Leverage social media
 
 Notes:
+* If you've encountered something strange...
 * Companies don't like being identified publicly
 * So mention them on Twitter/social media
 * Much faster & responsive than phone/contact/etc
